@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aircraft Control System</title>
+</head>
+<body>
+<h1>Aircraft Control System</h1>
+<form action="handle_request.php" method="post">
+    <label for="aircraft_name">Enter Aircraft Name:</label>
+    <input type="text" name="aircraft_name" id="aircraft_name">
+    <br><br>
+    <label for="action">Select Action:</label>
+    <select name="action" id="action">
+        <option value="land">Land</option>
+        <option value="take_off">Take Off</option>
+    </select>
+    <br><br>
+    <label for="runway_id">Enter Runway ID:</label>
+    <input type="text" name="runway_id" id="runway_id">
+    <br><br>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
