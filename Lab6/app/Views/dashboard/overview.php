@@ -79,67 +79,8 @@ if (isset($_GET['year2'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Overview</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        /* CSS styles for appearance */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        nav {
-            background-color: #f4f4f4;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            padding: 10px 20px;
-            text-decoration: none;
-            color: #333;
-        }
-        nav a:hover {
-            background-color: #ddd;
-        }
-        main {
-            padding: 20px;
-        }
-        .chart-container {
-            width: 50%;
-            margin: auto;
-        }
-        .chart {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        select {
-            margin: 10px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-            width: 98.7%;
-            position: relative;
-            bottom: 0;
-        }
+    <link rel="stylesheet" href="/app/static/css/overview.css">
 
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        main {
-            flex: 1;
-        }
-
-    </style>
 </head>
 <body>
 <?php include('../partials/header.php'); ?>
