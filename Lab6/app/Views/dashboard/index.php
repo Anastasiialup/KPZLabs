@@ -4,55 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard - Index</title>
-    <style>
-        /* CSS стилі для вигляду */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        nav {
-            background-color: #f4f4f4;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            padding: 10px 20px;
-            text-decoration: none;
-            color: #333;
-        }
-        nav a:hover {
-            background-color: #ddd;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-            width: 98.7%;
-            position: relative;
-            bottom: 0;
-        }
+    <link rel="stylesheet" href="/app/static/css/dashboard_index.css">
 
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        main {
-            flex: 1;
-        }
-    </style>
 </head>
 <body>
 <?php include('../partials/header.php'); ?>
