@@ -1,13 +1,14 @@
 <?php
 session_start();
 
-require_once('C:\wamp64\www\KPZLabs\Lab6\app\Controllers\AuthController.php');
-require_once('C:\wamp64\www\KPZLabs\Lab6\app\Models\User.php');
-require_once('C:\wamp64\www\KPZLabs\Lab6\config\database.php');
+require_once __DIR__ . '/../../Controllers/AuthController.php';
+require_once __DIR__ . '/../../Models/User.php';
+require_once __DIR__ . '/../../../config\database.php';
 
 use App\Controllers\AuthController;
 use App\Models\User;
 
+//$conn ???
 $userModel = new User($conn);
 $authController = new AuthController($userModel);
 
